@@ -15,7 +15,7 @@
   "license": "MIT",
   "icon": "assets/obs_overlay/icon.png",
   "environment": "client",
-  "entrypoints": {
+     “entrypoints”:——"entrypoints": {
     "client": [
       "me.zziger.obsoverlay.fabric.client.OBSOverlayFabricClient"
     ],
@@ -35,14 +35,15 @@
     "obs_overlay.mixins.json",
     "obs_overlay.fabric.mixins.json"
   ],
-  "depends": {
+"depends"   “决定”: {
     "fabricloader": ">=0.15.6",
-    "minecraft": "~1.21",
-    "java": ">=21",
-    "architectury": ">=13.0.2",
-    "cloth-config": ">=15.0.127",
-    "fabric-api": "*"
-  },
+    "minecraft"   “"我”: "~1.22",  # 1.20
+    "java"   “java”: ">=21",
+    "architectury"   “architectury”: ">=13.0.2",
+    "cloth-config"   “cloth-config”: ">=15.0.127",
+    "fabric-api"   “fabric-api”: "*"
+}
+}
   "suggests": {
     "modmenu": "*"
   }
